@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.navigation a {
+    color:  #4267B2;
+    text-decoration: none;
+    margin:20px;
+    font-weight: bold;
+    background-color: white;
+    
+}
+header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    color:  #4267B2;
+ }
+
+.tabs button {
+    margin-left: 10px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #e7e7e7;
+    cursor: pointer;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.friend-list {
+    border-top: 1px solid #e0e0e0;
+    margin-top: 20px;
+}
+
+.friend {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.friend img {
+    border-radius: 50%;
+}
+
+.friend span {
+    margin: 0 10px;
+}
+
+button {
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add {
+    background-color: #007bff;
+    color: white;
+}
+
+.remove {
+    background-color: #e0e0e0;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}

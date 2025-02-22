@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+}
+
+.header {
+    background-color: #4267B2;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 130%;
+}
+.navigation a {
+    color:  #4267B2;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    background-color: white;
+    
+}
+
+.searchbar {
+    flex: 1;
+    margin: 0 15px;
+    width: 500px;
+}
+
+.searchbar input {
+  
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    width: 1500px;
+}
+
+.stories, .suggestions {
+    margin: 20px;
+    display:flex;
+  
+}
+
+.story, .suggestion {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-right: 15px;
+    padding: 15px;
+    text-align: center;
+    min-width: 250px;
+}
+
+.suggestion {
+    width: 200px;
+}
+
+.button {
+    background-color: #42B72A;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reels {
+    margin: 20px;
+    display: flex;
+   
+}
+
+.reel {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-right: 15px;
+    padding: 10px;
+    min-width: 300px;
+}
+img{
+    border-radius: 8000px;
+}
+h1{
+   color:  #4267B2;
+}

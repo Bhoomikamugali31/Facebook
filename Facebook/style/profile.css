@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 650px;
+    max-width:500px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cover-photo {
+    background-color: lightgrey;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-pic {
+    flex: 0 0 100px;
+    margin-right: 20px;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.profile-details {
+    flex: 1;
+}
+
+.profile-details h2 {
+    margin: 0;
+}
+
+.profile-details button{
+    margin: 10px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.tabs button {
+    background-color: none;
+    border-radius:40px ;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.details-section {
+    padding: 20px;
+}
+
+.details, .friends, .posts {
+    margin-bottom: 20px;
+}
+
+.post-input {
+    display: flex;
+    align-items: center;
+}
+
+.post-input img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.post-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.action-buttons {
+    margin-top: 10px;
+    background-color: rgb(241, 241, 241);
+    height: 50px;
+    width: 460px;
+    padding-top: 20px;
+    margin-right: 10px;
+    
+
+}
+
+.action-buttons button {
+     background-color: white;
+     border-radius: 20px;
+     border-color: none;
+    margin-left: 10px;
+}
+.detail{
+    height: 25px;
+    width: 450px;
+    background-color: rgb(219, 246, 255);
+    color: rgb(104, 104, 255);
+    border: 0;
+
+}
+.add{
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    background-color: #5a8ef7;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+}
+
+.profile{
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    background-color: #e0e0e0;
+    color: black;
+    border-radius: 10px;
+    border: 0;
+}
+.menu{
+    text-align: center;
+    height: 30px;
+    width: 50px;
+    background-color: #e0e0e0;
+    color: black;
+    border-radius: 10px;
+    border: 0;
+}
+.post{
+    height: 30px;
+    width: 50px;
+
+}
+.navigation a {
+    color:  #4267B2;
+    text-decoration: none;
+    margin:20px;
+    margin-top: 10px;
+    font-weight: bold;
+    background-color: white;
+    
+}
